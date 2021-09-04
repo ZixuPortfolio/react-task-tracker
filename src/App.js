@@ -39,6 +39,7 @@ const App = () => {
   const toggleReminder = (id) => {
     setTasks(tasks.map((task) => task.id === id ? {...task, reminder: !task.reminder } : task))
   }
+  
   return (
     <div className="container">
       <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
