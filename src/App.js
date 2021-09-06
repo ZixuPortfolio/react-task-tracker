@@ -41,7 +41,7 @@ const App = () => {
   }
   
   return (
-    <div className="container">
+    <div className="trackerApp">
       <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
       {showAddTask && <AddTask onAdd={addTask} />}
       {tasks.length > 0 ? (

@@ -10,7 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
+.trackerApp {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
